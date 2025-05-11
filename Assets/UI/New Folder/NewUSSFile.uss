@@ -1,0 +1,67 @@
+VisualElement {
+}
+
+.unity-progress-bar {
+    border-top-left-radius: 64%;
+    border-top-right-radius: 64%;
+    border-bottom-right-radius: 64%;
+    border-bottom-left-radius: 64%;
+    height: 787px;
+    width: 100%;
+    min-height: 155px;
+    max-height: 27px;
+}
+
+.unity-progress-bar__container {
+    min-height: 110px;
+    border-top-left-radius: 41%;
+    border-top-right-radius: 41%;
+    border-bottom-right-radius: 41%;
+    border-bottom-left-radius: 41%;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    align-items: center;
+    justify-content: space-between;
+    left: 0%;
+    padding-left: 53px;
+    border-left-color: rgba(43, 42, 42, 0.98);
+    border-right-color: rgba(43, 42, 42, 0.98);
+    border-top-color: rgba(43, 42, 42, 0.98);
+    border-bottom-color: rgba(43, 42, 42, 0.98);
+    border-top-width: 14px;
+    border-right-width: 14px;
+    border-bottom-width: 14px;
+    border-left-width: 14px;
+    padding-top: 53px;
+    padding-right: 53px;
+    padding-bottom: 53px;
+    width: 470px;
+}
+
+.unity-progress-bar__title-container {
+    border-top-left-radius: 38%;
+    border-top-right-radius: 38%;
+    border-bottom-right-radius: 38%;
+    border-bottom-left-radius: 38%;
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(87, 246, 0);
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+    height: 100px;
+    margin-left: 5%;
+    width: 137px;
+    padding-top: 44px;
+    padding-right: 80%;
+    padding-bottom: 44px;
+    padding-left: 44px;
+}

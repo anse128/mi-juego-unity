@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/New%20Folder/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=47434e7f92ccc834385390d66f30163d&amp;type=3#NewUSSFile" />
+    <ui:VisualElement name="Healthbar" style="opacity: 1;">
+        <ui:ProgressBar value="22" title="my-progress" name="Progressbar" style="min-height: 115px;" />
+    </ui:VisualElement>
+</ui:UXML>
