@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private WeaponData weaponData;
 
+    #region codigo comentado 1
     //public Image weaponImage;
     //public TMP_Text weaponNameText;
     //public TMP_Text weaponCostText;
@@ -53,7 +54,7 @@ public class Weapon : MonoBehaviour, IPointerClickHandler
     //    if (weaponCostText != null)
     //        weaponCostText.text = $"{weaponData.cost}G";
     //}
-
+    #endregion
 
     //Detect if a click occurs
     public void OnPointerClick(PointerEventData pointerEventData)

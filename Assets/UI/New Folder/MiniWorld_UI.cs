@@ -16,6 +16,8 @@ public class MiniWorld_UI : MonoBehaviour
     VisualElement healthBar3;
 
     public float offsetY = 50f; // Ajusta en el Inspector
+    public float offsetY2 = 50f; // Ajusta en el Inspector
+    public float offsetY3 = 50f; // Ajusta en el Inspector
 
 
     private void OnEnable()
@@ -59,7 +61,7 @@ public class MiniWorld_UI : MonoBehaviour
 
         // 2. Ajuste vertical preciso (ajusta el -100 según necesites)
         float barHeight2 = healthBar2.resolvedStyle.height;
-        healthBar2.style.top = Screen.height - screenPos2.y - barHeight2 - offsetY;
+        healthBar2.style.top = Screen.height - screenPos2.y - barHeight2 - offsetY2;
 
 
         Vector3 screenPos3 = Camera.main.WorldToScreenPoint(player3.position);
@@ -70,7 +72,7 @@ public class MiniWorld_UI : MonoBehaviour
 
         // 2. Ajuste vertical preciso (ajusta el -100 según necesites)
         float barHeight3 = healthBar3.resolvedStyle.height;
-        healthBar3.style.top = Screen.height - screenPos3.y - barHeight3 - offsetY;
+        healthBar3.style.top = Screen.height - screenPos3.y - barHeight3 - offsetY3;
 
    
 

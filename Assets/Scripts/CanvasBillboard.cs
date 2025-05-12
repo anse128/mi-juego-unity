@@ -18,6 +18,7 @@ public class CanvasBillboard : MonoBehaviour
         directionToCamera.y = 0;
 
         // Asegura que el Canvas mire hacia la cámara solo en el eje Y
-        transform.rotation = Quaternion.LookRotation(directionToCamera);
+        // Invierte la dirección para que el frente mire hacia la cámara
+        transform.rotation = Quaternion.LookRotation(-directionToCamera);
     }
 }
